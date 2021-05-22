@@ -3,9 +3,6 @@ import React from 'react';
 import './VideoItem.css'; 
 
 const VideoItem = props =>{
-    // console.log(props);
-
-
 
     return (
         <div onClick = {() => {props.onVideoSelect(props.videoElement)}} className = "video-item item">
