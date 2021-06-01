@@ -11,6 +11,6 @@ Creating a Component in React
 2. Making HTTP calls
 3. Communicating between parent and child component
 4. Making use of Google Youtube API and fetch the video data from Google server
-
+5. Practicing replacing Class components with function components
 ## 2. Live Application URL
-https://patrickyyh.github.io/VideoPresent/
+https://video-hook-patrickyyh.vercel.app/
