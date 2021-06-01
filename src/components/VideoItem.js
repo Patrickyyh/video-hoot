@@ -3,7 +3,7 @@ import React from 'react';
 import './VideoItem.css'; 
 
 const VideoItem = props =>{
-
+    
     return (
         <div onClick = {() => {props.onVideoSelect(props.videoElement)}} className = "video-item item">
          <img className = "ui image"  src = {props.videoElement.snippet.thumbnails.medium.url} />
